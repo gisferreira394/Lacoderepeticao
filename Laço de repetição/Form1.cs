@@ -19,16 +19,26 @@ namespace Laço_de_repetição
 
         private void button1_Click(object sender, EventArgs e)
         {
-            list.Items.Add(1);
-            list.Items.Add(2);
-            list.Items.Add(3);
-            list.Items.Add(4);
-            list.Items.Add(5);
-            list.Items.Add(6);
-            list.Items.Add(7);
-            list.Items.Add(8);
-            list.Items.Add(9);
-            list.Items.Add(10);
+            //list.Items.Add(1);
+            //list.Items.Add(2);
+            //list.Items.Add(3);
+            //list.Items.Add(4);
+            //list.Items.Add(5);
+            //list.Items.Add(6);
+            //list.Items.Add(7);
+            //list.Items.Add(8);
+            //list.Items.Add(9);
+            //list.Items.Add(10);
+
+            //Laços de repetição para preencher os valores
+
+            //for (int valor = 0; valor <= 10; valor++)
+            //{
+            //    list.Items.Add(valor);
+            //}
+
+            for (int valor = 0; valor <= 10; valor += 2)
+            { list.Items.Add(valor); }
         }
     }
 }
