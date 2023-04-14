@@ -37,8 +37,20 @@ namespace Laço_de_repetição
             //    list.Items.Add(valor);
             //}
 
-            for (int valor = 0; valor <= 10; valor += 2)
-            { list.Items.Add(valor); }
+            ////for (int valor = 0; valor <= 10; valor += 2) 
+            //{ list.Items.Add(valor); }
+
+            //+= 2 quer dizer q vai acrescentando de 2 em 2 comentário :)
+
+
+            int vezes = 0;
+            do
+            {
+                list.Items.Add(vezes);
+                vezes++;
+
+            }
+            while (vezes <= 10);
         }
     }
 }
